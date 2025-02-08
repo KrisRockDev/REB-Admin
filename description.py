@@ -7,7 +7,7 @@ SCRIPT_NAME = os.path.basename(sys.argv[0])
 OUTPUT_FILE = f"{SCRIPT_NAME[:-3]}.md"
 
 # Игнорируемые папки и файлы по умолчанию
-DEFAULT_IGNORE = [".git", ".idea", "__pycache__", "venv", "env", "node_modules", ".venv", ".gitignore", ".dockerignore"]
+DEFAULT_IGNORE = [".git", ".idea", "__pycache__", "venv", "env", "node_modules", ".venv", ".gitignore", ".dockerignore", "LICENSE.md", "README.md", "requirements.txt", "requirements.py"]
 
 # Файлы, которые нужно исключить из обработки
 EXCLUDED_FILES = [OUTPUT_FILE, SCRIPT_NAME, "README.md", "requirements.txt", "requirements.py"]
